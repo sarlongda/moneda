@@ -1,0 +1,4 @@
+[submodule "moneda"]
+	path = moneda
+	url = https://github.com/moneda-project/moneda
+	ignore = all

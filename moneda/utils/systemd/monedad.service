@@ -1,0 +1,21 @@
+[Unit]
+Description=Moneda Full Node
+After=network.target
+
+[Service]
+User=moneda
+Group=moneda
+WorkingDirectory=~
+RuntimeDirectory=moneda
+
+Type=forking
+PIDFile=/run/moneda/monedad.pid
+
+ExecStart=/usr/bin/monedad --config-file /etc/monedad.conf \
+    --detach --pidfile /run/moneda/monedad.pid
+
+Restart=always
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

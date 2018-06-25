@@ -1,0 +1,1381 @@
+Building release
+/home/ksk/works/moneda-gui_01-30/moneda-gui /home/ksk/works/moneda-gui_01-30/moneda-gui
+/home/ksk/works/moneda-gui_01-30/moneda-gui /home/ksk/works/moneda-gui_01-30/moneda-gui
+You are currently on commit b137f73
+The most recent tag was at 6f14fde
+You are ahead of or behind a tagged release
+M	CMakeLists.txt
+M	CMakeLists_IOS.txt
+M	CONTRIBUTING.md
+M	Dockerfile
+M	Doxyfile
+M	LICENSE
+M	Makefile
+M	README.i18n.md
+M	README.md
+M	cmake/32-bit-toolchain.cmake
+M	cmake/64-bit-toolchain.cmake
+M	cmake/Doxyfile.in
+M	cmake/FindUnbound.cmake
+M	cmake/GenVersion.cmake
+M	cmake/Version.cmake
+M	cmake/test-static-assert.c
+M	cmake/test-static-assert.cpp
+M	contrib/CMakeLists.txt
+M	contrib/epee/CMakeLists.txt
+M	contrib/epee/include/hex.h
+M	contrib/epee/include/memwipe.h
+M	contrib/epee/include/misc_log_ex.h
+M	contrib/epee/include/net/abstract_tcp_server.h
+M	contrib/epee/include/net/abstract_tcp_server2.h
+M	contrib/epee/include/net/abstract_tcp_server2.inl
+M	contrib/epee/include/net/abstract_tcp_server_cp.h
+M	contrib/epee/include/net/abstract_tcp_server_cp.inl
+M	contrib/epee/include/net/connection_basic.hpp
+M	contrib/epee/include/net/http_auth.h
+M	contrib/epee/include/net/http_base.h
+M	contrib/epee/include/net/http_client.h
+M	contrib/epee/include/net/http_client_base.h
+M	contrib/epee/include/net/http_client_via_api_helper.h
+M	contrib/epee/include/net/http_protocol_handler.h
+M	contrib/epee/include/net/http_protocol_handler.inl
+M	contrib/epee/include/net/http_server_cp.h
+M	contrib/epee/include/net/http_server_cp2.h
+M	contrib/epee/include/net/http_server_handlers_map2.h
+M	contrib/epee/include/net/http_server_impl_base.h
+M	contrib/epee/include/net/levin_client.inl
+M	contrib/epee/include/net/levin_client_async.h
+M	contrib/epee/include/net/levin_helper.h
+M	contrib/epee/include/net/levin_protocol_handler.h
+M	contrib/epee/include/net/levin_protocol_handler_async.h
+M	contrib/epee/include/net/net_helper.h
+M	contrib/epee/include/net/net_parse_helpers.h
+M	contrib/epee/include/net/net_utils_base.h
+M	contrib/epee/include/net/network_throttle-detail.hpp
+M	contrib/epee/include/net/network_throttle.hpp
+M	contrib/epee/include/span.h
+M	contrib/epee/include/storages/levin_abstract_invoke2.h
+M	contrib/epee/include/storages/portable_storage_val_converters.h
+M	contrib/epee/include/wipeable_string.h
+M	contrib/epee/src/CMakeLists.txt
+M	contrib/epee/src/connection_basic.cpp
+M	contrib/epee/src/hex.cpp
+M	contrib/epee/src/http_auth.cpp
+M	contrib/epee/src/memwipe.c
+M	contrib/epee/src/mlog.cpp
+M	contrib/epee/src/network_throttle-detail.cpp
+M	contrib/epee/src/network_throttle.cpp
+M	contrib/epee/src/wipeable_string.cpp
+M	contrib/fuzz_testing/fuzz.sh
+D	contrib/rlwrap/monerocommands_bitmonerod.txt
+D	contrib/rlwrap/monerocommands_monero-wallet-cli.txt
+D	contrib/snap/monerod-wrapper
+D	contrib/snap/monerod.conf
+D	contrib/snap/setup/gui/icon.png
+D	contrib/snap/snapcraft.yaml
+D	contrib/valgrind/monero.supp
+M	external/CMakeLists.txt
+M	external/db_drivers/CMakeLists.txt
+M	external/db_drivers/liblmdb/CMakeLists.txt
+M	external/easylogging++/CMakeLists.txt
+M	external/miniupnpc/external-ip.sh
+M	external/miniupnpc/java/testjava.bat
+M	external/miniupnpc/java/testjava.sh
+M	external/miniupnpc/pymoduletest.py
+M	external/miniupnpc/pymoduletest3.py
+M	external/miniupnpc/setup.py
+M	external/miniupnpc/setupmingw32.py
+M	external/miniupnpc/testminiwget.sh
+M	external/miniupnpc/testupnpigd.py
+M	external/miniupnpc/testupnpreplyparse.sh
+M	external/miniupnpc/updateminiupnpcstrings.sh
+M	external/unbound/CMakeLists.txt
+M	external/unbound/config.guess
+M	external/unbound/config.sub
+M	external/unbound/configure
+M	external/unbound/contrib/rc_d_unbound
+M	external/unbound/contrib/unbound_munin_
+M	external/unbound/contrib/update-anchor.sh
+M	external/unbound/contrib/validation-reporter.sh
+M	external/unbound/install-sh
+M	external/unbound/makedist.sh
+M	external/unbound/testcode/do-tests.sh
+M	external/unbound/testcode/mini_tpkg.sh
+D	include/INode.h
+D	include/IWallet.h
+D	snap
+M	src/CMakeLists.txt
+M	src/blockchain_db/CMakeLists.txt
+M	src/blockchain_db/berkeleydb/db_bdb.cpp
+M	src/blockchain_db/berkeleydb/db_bdb.h
+M	src/blockchain_db/blockchain_db.cpp
+M	src/blockchain_db/blockchain_db.h
+M	src/blockchain_db/db_types.h
+M	src/blockchain_db/lmdb/db_lmdb.cpp
+M	src/blockchain_db/lmdb/db_lmdb.h
+M	src/blockchain_utilities/CMakeLists.txt
+M	src/blockchain_utilities/README.md
+M	src/blockchain_utilities/blockchain_export.cpp
+M	src/blockchain_utilities/blockchain_import.cpp
+M	src/blockchain_utilities/blockchain_utilities.h
+M	src/blockchain_utilities/blocksdat_file.cpp
+M	src/blockchain_utilities/blocksdat_file.h
+M	src/blockchain_utilities/bootstrap_file.cpp
+M	src/blockchain_utilities/bootstrap_file.h
+M	src/blockchain_utilities/bootstrap_serialization.h
+M	src/blocks/CMakeLists.txt
+M	src/checkpoints/CMakeLists.txt
+M	src/checkpoints/checkpoints.cpp
+M	src/checkpoints/checkpoints.h
+M	src/common/CMakeLists.txt
+M	src/common/apply_permutation.h
+M	src/common/base58.cpp
+M	src/common/base58.h
+M	src/common/boost_serialization_helper.h
+M	src/common/command_line.cpp
+M	src/common/command_line.h
+M	src/common/common_fwd.h
+M	src/common/dns_utils.cpp
+M	src/common/dns_utils.h
+M	src/common/download.cpp
+M	src/common/download.h
+M	src/common/http_connection.h
+M	src/common/i18n.cpp
+M	src/common/i18n.h
+M	src/common/int-util.h
+M	src/common/json_util.h
+M	src/common/password.cpp
+M	src/common/password.h
+M	src/common/perf_timer.cpp
+M	src/common/perf_timer.h
+M	src/common/pod-class.h
+M	src/common/rpc_client.h
+M	src/common/scoped_message_writer.h
+M	src/common/sfinae_helpers.h
+M	src/common/stack_trace.cpp
+M	src/common/stack_trace.h
+M	src/common/threadpool.cpp
+M	src/common/threadpool.h
+M	src/common/unordered_containers_boost_serialization.h
+M	src/common/updates.cpp
+M	src/common/updates.h
+M	src/common/util.cpp
+M	src/common/util.h
+M	src/common/varint.h
+M	src/crypto/CMakeLists.txt
+M	src/crypto/blake256.c
+M	src/crypto/blake256.h
+M	src/crypto/chacha.h
+M	src/crypto/crypto-ops-data.c
+M	src/crypto/crypto-ops.c
+M	src/crypto/crypto-ops.h
+M	src/crypto/crypto.cpp
+M	src/crypto/crypto.h
+M	src/crypto/crypto_ops_builder/Makefile
+M	src/crypto/crypto_ops_builder/README.md
+M	src/crypto/crypto_ops_builder/api.h
+M	src/crypto/crypto_ops_builder/crypto-ops-data.c
+M	src/crypto/crypto_ops_builder/crypto-ops-old.c
+M	src/crypto/crypto_ops_builder/crypto-ops.h
+M	src/crypto/crypto_ops_builder/crypto_int32.h
+M	src/crypto/crypto_ops_builder/crypto_sign.h
+M	src/crypto/crypto_ops_builder/crypto_uint32.h
+M	src/crypto/crypto_ops_builder/crypto_verify_32.h
+M	src/crypto/crypto_ops_builder/randombytes.c
+M	src/crypto/crypto_ops_builder/ref10CommentedCombined/MakeCryptoOps.py
+M	src/crypto/crypto_ops_builder/ref10CommentedCombined/crypto-ops.h
+M	src/crypto/crypto_ops_builder/ref10CommentedCombined/description
+M	src/crypto/crypto_ops_builder/ref10CommentedCombined/designers
+D	src/crypto/crypto_ops_builder/ref10CommentedCombined/sc_sub.xmr.c
+D	src/crypto/crypto_ops_builder/ref10CommentedCombined/xmrSpecificOld.c
+M	src/crypto/crypto_ops_builder/sha512-blocks.c
+M	src/crypto/crypto_ops_builder/sha512-hash.c
+M	src/crypto/crypto_ops_builder/sha512.h
+M	src/crypto/crypto_ops_builder/verify.c
+M	src/crypto/generic-ops.h
+M	src/crypto/groestl.h
+M	src/crypto/groestl_tables.h
+M	src/crypto/hash-extra-blake.c
+M	src/crypto/hash-extra-groestl.c
+M	src/crypto/hash-extra-jh.c
+M	src/crypto/hash-extra-skein.c
+M	src/crypto/hash-ops.h
+M	src/crypto/hash.c
+M	src/crypto/hash.h
+M	src/crypto/initializer.h
+M	src/crypto/random.c
+M	src/crypto/random.h
+M	src/crypto/skein_port.h
+M	src/crypto/slow-hash.c
+M	src/crypto/tree-hash.c
+M	src/cryptonote_basic/CMakeLists.txt
+M	src/cryptonote_basic/account.cpp
+M	src/cryptonote_basic/account.h
+M	src/cryptonote_basic/account_boost_serialization.h
+M	src/cryptonote_basic/blobdatatype.h
+M	src/cryptonote_basic/connection_context.h
+M	src/cryptonote_basic/cryptonote_basic.h
+M	src/cryptonote_basic/cryptonote_basic_impl.cpp
+M	src/cryptonote_basic/cryptonote_basic_impl.h
+M	src/cryptonote_basic/cryptonote_boost_serialization.h
+M	src/cryptonote_basic/cryptonote_format_utils.cpp
+M	src/cryptonote_basic/cryptonote_format_utils.h
+M	src/cryptonote_basic/cryptonote_stat_info.h
+M	src/cryptonote_basic/difficulty.cpp
+M	src/cryptonote_basic/difficulty.h
+M	src/cryptonote_basic/hardfork.cpp
+M	src/cryptonote_basic/hardfork.h
+M	src/cryptonote_basic/miner.cpp
+M	src/cryptonote_basic/miner.h
+M	src/cryptonote_basic/subaddress_index.h
+M	src/cryptonote_basic/tx_extra.h
+M	src/cryptonote_basic/verification_context.h
+M	src/cryptonote_config.h
+M	src/cryptonote_core/CMakeLists.txt
+M	src/cryptonote_core/blockchain.cpp
+M	src/cryptonote_core/blockchain.h
+M	src/cryptonote_core/blockchain_storage_boost_serialization.h
+M	src/cryptonote_core/cryptonote_core.cpp
+M	src/cryptonote_core/cryptonote_core.h
+M	src/cryptonote_core/cryptonote_tx_utils.cpp
+M	src/cryptonote_core/cryptonote_tx_utils.h
+M	src/cryptonote_core/tx_pool.cpp
+M	src/cryptonote_core/tx_pool.h
+M	src/cryptonote_protocol/CMakeLists.txt
+M	src/cryptonote_protocol/block_queue.cpp
+M	src/cryptonote_protocol/block_queue.h
+M	src/cryptonote_protocol/cryptonote_protocol_defs.h
+M	src/cryptonote_protocol/cryptonote_protocol_handler-base.cpp
+M	src/cryptonote_protocol/cryptonote_protocol_handler.h
+M	src/cryptonote_protocol/cryptonote_protocol_handler.inl
+M	src/cryptonote_protocol/cryptonote_protocol_handler_common.h
+M	src/daemon/CMakeLists.txt
+M	src/daemon/command_line_args.h
+M	src/daemon/command_parser_executor.cpp
+M	src/daemon/command_parser_executor.h
+M	src/daemon/command_server.cpp
+M	src/daemon/command_server.h
+M	src/daemon/core.h
+M	src/daemon/daemon.cpp
+M	src/daemon/daemon.h
+M	src/daemon/executor.cpp
+M	src/daemon/executor.h
+M	src/daemon/main.cpp
+M	src/daemon/p2p.h
+M	src/daemon/protocol.h
+M	src/daemon/rpc.h
+M	src/daemon/rpc_command_executor.cpp
+M	src/daemon/rpc_command_executor.h
+M	src/daemonizer/CMakeLists.txt
+M	src/daemonizer/daemonizer.h
+M	src/daemonizer/posix_daemonizer.inl
+M	src/daemonizer/posix_fork.cpp
+M	src/daemonizer/posix_fork.h
+M	src/daemonizer/windows_daemonizer.inl
+M	src/daemonizer/windows_service.cpp
+M	src/daemonizer/windows_service.h
+M	src/daemonizer/windows_service_runner.h
+M	src/debug_utilities/CMakeLists.txt
+M	src/debug_utilities/cn_deserialize.cpp
+M	src/debug_utilities/object_sizes.cpp
+M	src/gen_multisig/CMakeLists.txt
+M	src/gen_multisig/gen_multisig.cpp
+M	src/mnemonics/CMakeLists.txt
+M	src/mnemonics/chinese_simplified.h
+M	src/mnemonics/dutch.h
+M	src/mnemonics/electrum-words.cpp
+M	src/mnemonics/electrum-words.h
+M	src/mnemonics/english.h
+M	src/mnemonics/english_old.h
+M	src/mnemonics/esperanto.h
+M	src/mnemonics/french.h
+M	src/mnemonics/german.h
+M	src/mnemonics/italian.h
+M	src/mnemonics/japanese.h
+M	src/mnemonics/language_base.h
+M	src/mnemonics/lojban.h
+M	src/mnemonics/portuguese.h
+M	src/mnemonics/russian.h
+M	src/mnemonics/singleton.h
+M	src/mnemonics/spanish.h
+M	src/multisig/CMakeLists.txt
+M	src/multisig/multisig.cpp
+M	src/multisig/multisig.h
+M	src/p2p/CMakeLists.txt
+M	src/p2p/net_node.cpp
+M	src/p2p/net_node.h
+M	src/p2p/net_node.inl
+M	src/p2p/net_node_common.h
+M	src/p2p/net_peerlist.h
+M	src/p2p/net_peerlist_boost_serialization.h
+M	src/p2p/p2p_protocol_defs.h
+M	src/p2p/stdafx.h
+M	src/platform/mingw/alloca.h
+M	src/platform/msc/alloca.h
+M	src/platform/msc/inline_c.h
+M	src/platform/msc/stdbool.h
+M	src/platform/msc/sys/param.h
+M	src/ringct/CMakeLists.txt
+M	src/ringct/bulletproofs.cc
+M	src/ringct/bulletproofs.h
+M	src/ringct/rctCryptoOps.c
+M	src/ringct/rctCryptoOps.h
+M	src/ringct/rctOps.cpp
+M	src/ringct/rctOps.h
+M	src/ringct/rctSigs.cpp
+M	src/ringct/rctSigs.h
+M	src/ringct/rctTypes.cpp
+M	src/ringct/rctTypes.h
+M	src/rpc/CMakeLists.txt
+M	src/rpc/core_rpc_server.cpp
+M	src/rpc/core_rpc_server.h
+M	src/rpc/core_rpc_server_commands_defs.h
+M	src/rpc/core_rpc_server_error_codes.h
+M	src/rpc/daemon_handler.cpp
+M	src/rpc/daemon_handler.h
+M	src/rpc/daemon_messages.cpp
+M	src/rpc/daemon_messages.h
+M	src/rpc/daemon_rpc_version.h
+M	src/rpc/instanciations.cpp
+M	src/rpc/message.cpp
+M	src/rpc/message.h
+M	src/rpc/message_data_structs.h
+M	src/rpc/rpc_args.cpp
+M	src/rpc/rpc_args.h
+M	src/rpc/rpc_handler.h
+M	src/rpc/zmq_server.cpp
+M	src/rpc/zmq_server.h
+M	src/serialization/CMakeLists.txt
+M	src/serialization/binary_archive.h
+M	src/serialization/binary_utils.h
+M	src/serialization/container.h
+M	src/serialization/crypto.h
+M	src/serialization/debug_archive.h
+M	src/serialization/deque.h
+M	src/serialization/json_archive.h
+M	src/serialization/json_object.cpp
+M	src/serialization/json_object.h
+M	src/serialization/json_utils.h
+M	src/serialization/list.h
+M	src/serialization/pair.h
+M	src/serialization/serialization.h
+M	src/serialization/set.h
+M	src/serialization/string.h
+M	src/serialization/unordered_set.h
+M	src/serialization/variant.h
+M	src/serialization/vector.h
+M	src/simplewallet/CMakeLists.txt
+M	src/simplewallet/simplewallet.cpp
+M	src/simplewallet/simplewallet.h
+M	src/version.cpp.in
+M	src/version.h
+M	src/wallet/CMakeLists.txt
+M	src/wallet/api/CMakeLists.txt
+M	src/wallet/api/address_book.cpp
+M	src/wallet/api/address_book.h
+M	src/wallet/api/pending_transaction.cpp
+M	src/wallet/api/pending_transaction.h
+M	src/wallet/api/subaddress.cpp
+M	src/wallet/api/subaddress.h
+M	src/wallet/api/subaddress_account.cpp
+M	src/wallet/api/subaddress_account.h
+M	src/wallet/api/transaction_history.cpp
+M	src/wallet/api/transaction_history.h
+M	src/wallet/api/transaction_info.cpp
+M	src/wallet/api/transaction_info.h
+M	src/wallet/api/unsigned_transaction.cpp
+M	src/wallet/api/unsigned_transaction.h
+M	src/wallet/api/utils.cpp
+M	src/wallet/api/wallet.cpp
+M	src/wallet/api/wallet.h
+M	src/wallet/api/wallet2_api.h
+M	src/wallet/api/wallet_manager.cpp
+M	src/wallet/api/wallet_manager.h
+M	src/wallet/node_rpc_proxy.cpp
+M	src/wallet/node_rpc_proxy.h
+M	src/wallet/wallet2.cpp
+M	src/wallet/wallet2.h
+M	src/wallet/wallet_args.cpp
+M	src/wallet/wallet_args.h
+M	src/wallet/wallet_errors.h
+M	src/wallet/wallet_rpc_server.cpp
+M	src/wallet/wallet_rpc_server.h
+M	src/wallet/wallet_rpc_server_commands_defs.h
+M	src/wallet/wallet_rpc_server_error_codes.h
+M	tests/CMakeLists.txt
+M	tests/README.md
+M	tests/core_proxy/CMakeLists.txt
+M	tests/core_proxy/core_proxy.cpp
+M	tests/core_proxy/core_proxy.h
+M	tests/core_tests/CMakeLists.txt
+M	tests/core_tests/block_reward.cpp
+M	tests/core_tests/block_reward.h
+M	tests/core_tests/block_validation.cpp
+M	tests/core_tests/block_validation.h
+M	tests/core_tests/chain_split_1.cpp
+M	tests/core_tests/chain_split_1.h
+M	tests/core_tests/chain_switch_1.cpp
+M	tests/core_tests/chain_switch_1.h
+M	tests/core_tests/chaingen.cpp
+M	tests/core_tests/chaingen.h
+M	tests/core_tests/chaingen001.cpp
+M	tests/core_tests/chaingen_main.cpp
+M	tests/core_tests/chaingen_tests_list.h
+M	tests/core_tests/double_spend.cpp
+M	tests/core_tests/double_spend.h
+M	tests/core_tests/double_spend.inl
+M	tests/core_tests/integer_overflow.cpp
+M	tests/core_tests/integer_overflow.h
+M	tests/core_tests/multisig.cpp
+M	tests/core_tests/multisig.h
+M	tests/core_tests/rct.cpp
+M	tests/core_tests/rct.h
+M	tests/core_tests/ring_signature_1.cpp
+M	tests/core_tests/ring_signature_1.h
+M	tests/core_tests/transaction_tests.cpp
+M	tests/core_tests/transaction_tests.h
+M	tests/core_tests/tx_validation.cpp
+M	tests/core_tests/tx_validation.h
+M	tests/core_tests/v2_tests.cpp
+M	tests/core_tests/v2_tests.h
+M	tests/crypto/CMakeLists.txt
+M	tests/crypto/crypto-ops-data.c
+M	tests/crypto/crypto-ops.c
+M	tests/crypto/crypto-tests.h
+M	tests/crypto/crypto.cpp
+M	tests/crypto/hash.c
+M	tests/crypto/main.cpp
+M	tests/crypto/random.c
+M	tests/cryptolib.pl
+M	tests/cryptotest.pl
+M	tests/daemon_tests/CMakeLists.txt
+M	tests/daemon_tests/transfers.cpp
+D	tests/data/signed_monero_tx
+D	tests/data/unsigned_monero_tx
+M	tests/difficulty/CMakeLists.txt
+M	tests/difficulty/difficulty.cpp
+M	tests/difficulty/generate-data
+M	tests/functional_tests/CMakeLists.txt
+M	tests/functional_tests/main.cpp
+M	tests/functional_tests/transactions_flow_test.cpp
+M	tests/functional_tests/transactions_flow_test.h
+M	tests/functional_tests/transactions_generation_from_blockchain.cpp
+M	tests/functional_tests/transactions_generation_from_blockchain.h
+M	tests/fuzz/CMakeLists.txt
+M	tests/fuzz/base58.cpp
+M	tests/fuzz/block.cpp
+M	tests/fuzz/cold-outputs.cpp
+M	tests/fuzz/cold-transaction.cpp
+M	tests/fuzz/fuzzer.cpp
+M	tests/fuzz/fuzzer.h
+M	tests/fuzz/http-client.cpp
+M	tests/fuzz/levin.cpp
+M	tests/fuzz/load_from_binary.cpp
+M	tests/fuzz/load_from_json.cpp
+M	tests/fuzz/parse_url.cpp
+M	tests/fuzz/signature.cpp
+M	tests/fuzz/transaction.cpp
+M	tests/hash-target.cpp
+M	tests/hash/CMakeLists.txt
+M	tests/hash/main.cpp
+M	tests/io.h
+M	tests/libwallet_api_tests/CMakeLists.txt
+M	tests/libwallet_api_tests/main.cpp
+M	tests/libwallet_api_tests/scripts/README.md
+M	tests/libwallet_api_tests/scripts/create_wallets.sh
+M	tests/libwallet_api_tests/scripts/mining_start.sh
+M	tests/libwallet_api_tests/scripts/mining_stop.sh
+M	tests/libwallet_api_tests/scripts/open_wallet_1.sh
+M	tests/libwallet_api_tests/scripts/open_wallet_2.sh
+M	tests/libwallet_api_tests/scripts/open_wallet_3.sh
+M	tests/libwallet_api_tests/scripts/open_wallet_4.sh
+M	tests/libwallet_api_tests/scripts/open_wallet_5.sh
+M	tests/libwallet_api_tests/scripts/open_wallet_miner.sh
+M	tests/libwallet_api_tests/scripts/send_funds.sh
+M	tests/net_load_tests/CMakeLists.txt
+M	tests/net_load_tests/clt.cpp
+M	tests/net_load_tests/net_load_tests.h
+M	tests/net_load_tests/srv.cpp
+M	tests/performance_tests/CMakeLists.txt
+M	tests/performance_tests/check_tx_signature.h
+M	tests/performance_tests/cn_fast_hash.h
+M	tests/performance_tests/cn_slow_hash.h
+M	tests/performance_tests/construct_tx.h
+M	tests/performance_tests/derive_public_key.h
+M	tests/performance_tests/derive_secret_key.h
+M	tests/performance_tests/ge_frombytes_vartime.h
+M	tests/performance_tests/generate_key_derivation.h
+M	tests/performance_tests/generate_key_image.h
+M	tests/performance_tests/generate_key_image_helper.h
+M	tests/performance_tests/generate_keypair.h
+M	tests/performance_tests/is_out_to_acc.h
+M	tests/performance_tests/main.cpp
+M	tests/performance_tests/multi_tx_test_base.h
+M	tests/performance_tests/performance_tests.h
+M	tests/performance_tests/performance_utils.h
+M	tests/performance_tests/rct_mlsag.h
+M	tests/performance_tests/sc_reduce32.h
+M	tests/performance_tests/single_tx_test_base.h
+M	tests/performance_tests/subaddress_expand.h
+M	tests/unit_tests/CMakeLists.txt
+M	tests/unit_tests/address_from_url.cpp
+M	tests/unit_tests/apply_permutation.cpp
+M	tests/unit_tests/ban.cpp
+M	tests/unit_tests/base58.cpp
+M	tests/unit_tests/block_queue.cpp
+M	tests/unit_tests/block_reward.cpp
+M	tests/unit_tests/blockchain_db.cpp
+M	tests/unit_tests/bulletproofs.cpp
+M	tests/unit_tests/canonical_amounts.cpp
+M	tests/unit_tests/chacha.cpp
+M	tests/unit_tests/checkpoints.cpp
+M	tests/unit_tests/command_line.cpp
+M	tests/unit_tests/crypto.cpp
+M	tests/unit_tests/decompose_amount_into_digits.cpp
+M	tests/unit_tests/dns_resolver.cpp
+M	tests/unit_tests/epee_boosted_tcp_server.cpp
+M	tests/unit_tests/epee_levin_protocol_handler_async.cpp
+M	tests/unit_tests/epee_utils.cpp
+M	tests/unit_tests/fee.cpp
+M	tests/unit_tests/get_xtype_from_string.cpp
+M	tests/unit_tests/hardfork.cpp
+M	tests/unit_tests/hashchain.cpp
+M	tests/unit_tests/http.cpp
+M	tests/unit_tests/main.cpp
+M	tests/unit_tests/memwipe.cpp
+M	tests/unit_tests/mnemonics.cpp
+M	tests/unit_tests/mul_div.cpp
+M	tests/unit_tests/multisig.cpp
+M	tests/unit_tests/output_selection.cpp
+M	tests/unit_tests/parse_amount.cpp
+M	tests/unit_tests/ringct.cpp
+M	tests/unit_tests/serialization.cpp
+M	tests/unit_tests/sha256.cpp
+M	tests/unit_tests/slow_memmem.cpp
+M	tests/unit_tests/subaddress.cpp
+M	tests/unit_tests/test_peerlist.cpp
+M	tests/unit_tests/test_protocol_pack.cpp
+M	tests/unit_tests/test_tx_utils.cpp
+M	tests/unit_tests/unbound.cpp
+M	tests/unit_tests/unit_tests_utils.h
+M	tests/unit_tests/uri.cpp
+M	tests/unit_tests/varint.cpp
+M	tests/unit_tests/vercmp.cpp
+M	translations/CMakeLists.txt
+M	translations/generate_translations_header.c
+D	translations/monero.ts
+D	translations/monero_fr.ts
+D	translations/monero_it.ts
+D	translations/monero_sv.ts
+M	utils/build_scripts/android32.Dockerfile
+M	utils/build_scripts/android64.Dockerfile
+M	utils/build_scripts/windows.bat
+D	utils/conf/monerod.conf
+M	utils/doxygen-publish.sh
+D	utils/gpg_keys/moneromooo.asc
+M	utils/munin_plugins/alt_blocks_count
+M	utils/munin_plugins/difficulty
+M	utils/munin_plugins/grey_peerlist_size
+M	utils/munin_plugins/height
+M	utils/munin_plugins/incoming_connections_count
+M	utils/munin_plugins/outgoing_connections_count
+M	utils/munin_plugins/tx_count
+M	utils/munin_plugins/tx_pool_size
+M	utils/munin_plugins/white_peerlist_size
+D	utils/systemd/monerod.service
+M	utils/translations/build-translations.sh
+M	utils/translations/update-translations.sh
+/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda /home/ksk/works/moneda-gui_01-30/moneda-gui /home/ksk/works/moneda-gui_01-30/moneda-gui
+You are currently on commit 6ed3148
+The most recent tag was at 793bc97
+You are ahead of or behind a tagged release
+/home/ksk/works/moneda-gui_01-30/moneda-gui /home/ksk/works/moneda-gui_01-30/moneda-gui
+latest libwallet version: 6ed3148
+Installed libwallet version: 6ed3148
+latest libwallet (6ed3148) is already built. Remove moneda/lib/libwallet_merged.a to force rebuild
+Building libwallet release
+cleaning up existing moneda build dir, libs and includes
+/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release /home/ksk/works/moneda-gui_01-30/moneda-gui /home/ksk/works/moneda-gui_01-30/moneda-gui
+Configuring build for Linux x64
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building without build tag
+-- Could not find DEVELOPER_LOCAL_TOOLS in env (not required)
+-- BOOST_IGNORE_SYSTEM_PATHS defaults to OFF
+-- Could not find DEVELOPER_LIBUNBOUND_OLD in env (not required)
+-- Building for a 64-bit system
+-- Building internal libraries as static
+-- Could not find DATABASE in env (not required unless you want to change database type from default: lmdb)
+-- Using LMDB as default DB type
+-- Stack trace on exception enabled (using easylogging++)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libssl.so;/usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.0.2g") 
+-- Using OpenSSL include dir at /usr/include
+-- Could NOT find MiniUPnPc (missing:  MINIUPNP_INCLUDE_DIR MINIUPNP_LIBRARY) 
+-- Using miniupnpc from local source tree (/external/miniupnpc)
+-- Looking for libunbound
+-- Found libunbound include (unbound.h) in /usr/include
+-- Found libunbound shared library
+-- Using 64-bit LMDB from source tree
+-- Building on x86_64 for native
+-- Performing Test _Wformat_c
+-- Performing Test _Wformat_c - Success
+-- Performing Test _Wformat_cxx
+-- Performing Test _Wformat_cxx - Success
+-- Performing Test _Wformat_security_c
+-- Performing Test _Wformat_security_c - Success
+-- Performing Test _Wformat_security_cxx
+-- Performing Test _Wformat_security_cxx - Success
+-- Performing Test _fstack_protector_c
+-- Performing Test _fstack_protector_c - Success
+-- Performing Test _fstack_protector_cxx
+-- Performing Test _fstack_protector_cxx - Success
+-- Performing Test _fstack_protector_strong_c
+-- Performing Test _fstack_protector_strong_c - Success
+-- Performing Test _fstack_protector_strong_cxx
+-- Performing Test _fstack_protector_strong_cxx - Success
+-- Looking for -pie linker flag
+-- Looking for -pie linker flag - found
+-- Looking for -Wl,-z,relro linker flag
+-- Looking for -Wl,-z,relro linker flag - found
+-- Looking for -Wl,-z,now linker flag
+-- Looking for -Wl,-z,now linker flag - found
+-- Looking for -Wl,-z,noexecstack linker flag
+-- Looking for -Wl,-z,noexecstack linker flag - found
+-- Looking for -Wl,-z,noexecheap linker flag
+-- Looking for -Wl,-z,noexecheap linker flag - not found
+-- Using C security hardening flags:  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -fstack-protector -fstack-protector-strong
+-- Using C++ security hardening flags:  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -fstack-protector -fstack-protector-strong
+-- Using linker security hardening flags:  -pie -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack
+-- AES support enabled
+-- Found Boost Version: 105800
+-- Found Readline: /usr/include  
+-- Looking for rl_copy_text
+-- Looking for rl_copy_text - found
+-- Looking for rl_filename_completion_function
+-- Looking for rl_filename_completion_function - found
+-- Found readline library at: /usr
+-- Found Git: /usr/bin/git
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.11") 
+-- Performing Test HAVE_C11
+-- Performing Test HAVE_C11 - Success
+-- Looking for memset_s in c
+-- Looking for memset_s in c - not found
+-- Looking for explicit_bzero in c
+-- Looking for explicit_bzero in c - not found
+-- Looking for strptime
+-- Looking for strptime - found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release
+/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release/src/wallet /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release /home/ksk/works/moneda-gui_01-30/moneda-gui /home/ksk/works/moneda-gui_01-30/moneda-gui
+make: Entering directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+make[1]: Entering directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+make[2]: Entering directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+make[3]: Entering directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+Scanning dependencies of target genversion
+make[3]: Leaving directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+make[3]: Entering directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+-- You are currently on commit 6ed3148
+-- The most recent tag was at 793bc97
+-- You are ahead of or behind a tagged release
+make[3]: Leaving directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+[  0%] Built target genversion
+make[3]: Entering directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+Scanning dependencies of target obj_version
+make[3]: Leaving directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+make[3]: Entering directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+[100%] Building CXX object src/CMakeFiles/obj_version.dir/__/version.cpp.o
+make[3]: Leaving directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+[100%] Built target obj_version
+make[3]: Entering directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+Scanning dependencies of target version
+make[3]: Leaving directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+make[3]: Entering directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+[100%] Linking CXX static library libversion.a
+make[3]: Leaving directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+[100%] Built target version
+make[2]: Leaving directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+make[1]: Leaving directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+make: Leaving directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+[  1%] Generating testnet_blocks.o
+Scanning dependencies of target easylogging
+Scanning dependencies of target lmdb
+[  1%] Generating blocks.o
+-- You are currently on commit 6ed3148
+[  3%] Building CXX object external/easylogging++/CMakeFiles/easylogging.dir/easylogging++.cc.o
+-- The most recent tag was at 793bc97
+-- You are ahead of or behind a tagged release
+[  3%] Building C object external/db_drivers/liblmdb/CMakeFiles/lmdb.dir/mdb.c.o
+Scanning dependencies of target blocks
+[  3%] Built target genversion
+[  3%] Building C object src/blocks/CMakeFiles/blocks.dir/blockexports.c.o
+[  4%] Building C object external/db_drivers/liblmdb/CMakeFiles/lmdb.dir/midl.c.o
+[  6%] Linking C static library libblocks.a
+[  6%] Built target blocks
+Scanning dependencies of target generate_translations_header
+Scanning dependencies of target obj_cncrypto
+[  7%] Creating directories for 'generate_translations_header'
+[  9%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/aesb.c.o
+[ 10%] No download step for 'generate_translations_header'
+[ 12%] No patch step for 'generate_translations_header'
+[ 12%] No update step for 'generate_translations_header'
+[ 12%] Performing configure step for 'generate_translations_header'
+-- The C compiler identification is GNU 5.4.0
+[ 13%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/blake256.c.o
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+[ 13%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/chacha.c.o
+[ 15%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/crypto-ops-data.c.o
+[ 15%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/crypto-ops.c.o
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+lrelease version 5.5.1
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release/translations
+[ 16%] Performing build step for 'generate_translations_header'
+Scanning dependencies of target generate_translations_header
+[ 50%] Building C object CMakeFiles/generate_translations_header.dir/generate_translations_header.c.o
+[100%] Linking C executable generate_translations_header
+Updating 'moneda_sv.qm'...
+    Generated 501 translation(s) (501 finished and 0 unfinished)
+Updating 'moneda_it.qm'...
+    Generated 497 translation(s) (497 finished and 0 unfinished)
+    Ignored 4 untranslated source text(s)
+Updating 'moneda.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 501 untranslated source text(s)
+Updating 'moneda_fr.qm'...
+    Generated 485 translation(s) (485 finished and 0 unfinished)
+    Ignored 16 untranslated source text(s)
+Generating embedded translations header
+[100%] Built target generate_translations_header
+[ 16%] Performing install step for 'generate_translations_header'
+
+[ 18%] Completed 'generate_translations_header'
+[ 18%] Built target generate_translations_header
+Scanning dependencies of target obj_cryptonote_basic
+[ 18%] Building CXX object src/cryptonote_basic/CMakeFiles/obj_cryptonote_basic.dir/account.cpp.o
+[ 19%] Building CXX object src/crypto/CMakeFiles/obj_cncrypto.dir/crypto.cpp.o
+[ 19%] Linking C static library liblmdb.a
+[ 19%] Built target lmdb
+[ 21%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/groestl.c.o
+[ 22%] Building CXX object src/cryptonote_basic/CMakeFiles/obj_cryptonote_basic.dir/cryptonote_basic_impl.cpp.o
+[ 22%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/hash-extra-blake.c.o
+[ 24%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/hash-extra-groestl.c.o
+[ 24%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/hash-extra-jh.c.o
+[ 25%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/hash-extra-skein.c.o
+[ 27%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/hash.c.o
+[ 27%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/jh.c.o
+[ 28%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/keccak.c.o
+[ 28%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/oaes_lib.c.o
+[ 30%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/random.c.o
+[ 31%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/skein.c.o
+[ 31%] Linking CXX static library libeasylogging.a
+[ 31%] Built target easylogging
+Scanning dependencies of target obj_checkpoints
+[ 31%] Building CXX object src/checkpoints/CMakeFiles/obj_checkpoints.dir/checkpoints.cpp.o
+[ 31%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/slow-hash.c.o
+[ 33%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/tree-hash.c.o
+[ 33%] Built target obj_cncrypto
+Scanning dependencies of target obj_ringct
+[ 33%] Building CXX object src/ringct/CMakeFiles/obj_ringct.dir/rctOps.cpp.o
+[ 33%] Building CXX object src/cryptonote_basic/CMakeFiles/obj_cryptonote_basic.dir/cryptonote_format_utils.cpp.o
+[ 34%] Building CXX object src/cryptonote_basic/CMakeFiles/obj_cryptonote_basic.dir/difficulty.cpp.o
+[ 36%] Building CXX object src/cryptonote_basic/CMakeFiles/obj_cryptonote_basic.dir/hardfork.cpp.o
+[ 37%] Building CXX object src/ringct/CMakeFiles/obj_ringct.dir/rctSigs.cpp.o
+[ 37%] Building CXX object src/cryptonote_basic/CMakeFiles/obj_cryptonote_basic.dir/miner.cpp.o
+[ 39%] Building CXX object src/ringct/CMakeFiles/obj_ringct.dir/rctTypes.cpp.o
+[ 39%] Building C object src/ringct/CMakeFiles/obj_ringct.dir/rctCryptoOps.c.o
+[ 40%] Building CXX object src/ringct/CMakeFiles/obj_ringct.dir/bulletproofs.cc.o
+[ 40%] Built target obj_checkpoints
+Scanning dependencies of target obj_cryptonote_core
+[ 42%] Building CXX object src/cryptonote_core/CMakeFiles/obj_cryptonote_core.dir/blockchain.cpp.o
+[ 42%] Building CXX object src/cryptonote_core/CMakeFiles/obj_cryptonote_core.dir/cryptonote_core.cpp.o
+[ 42%] Built target obj_ringct
+Scanning dependencies of target obj_multisig
+[ 43%] Building CXX object src/multisig/CMakeFiles/obj_multisig.dir/multisig.cpp.o
+[ 43%] Built target obj_multisig
+Scanning dependencies of target obj_blockchain_db
+[ 43%] Building CXX object src/blockchain_db/CMakeFiles/obj_blockchain_db.dir/blockchain_db.cpp.o
+[ 43%] Built target obj_cryptonote_basic
+Scanning dependencies of target obj_mnemonics
+[ 43%] Building CXX object src/mnemonics/CMakeFiles/obj_mnemonics.dir/electrum-words.cpp.o
+[ 45%] Building CXX object src/blockchain_db/CMakeFiles/obj_blockchain_db.dir/lmdb/db_lmdb.cpp.o
+Scanning dependencies of target obj_wallet
+[ 45%] Building CXX object src/wallet/CMakeFiles/obj_wallet.dir/wallet2.cpp.o
+[ 46%] Building CXX object src/cryptonote_core/CMakeFiles/obj_cryptonote_core.dir/tx_pool.cpp.o
+[ 46%] Built target obj_blockchain_db
+Scanning dependencies of target obj_wallet_api
+[ 46%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/wallet.cpp.o
+[ 48%] Building CXX object src/cryptonote_core/CMakeFiles/obj_cryptonote_core.dir/cryptonote_tx_utils.cpp.o
+[ 48%] Built target obj_cryptonote_core
+Scanning dependencies of target obj_rpc_base
+[ 50%] Building CXX object src/rpc/CMakeFiles/obj_rpc_base.dir/rpc_args.cpp.o
+[ 50%] Built target obj_rpc_base
+Scanning dependencies of target epee
+[ 51%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/hex.cpp.o
+[ 51%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/http_auth.cpp.o
+[ 53%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/wallet_manager.cpp.o
+[ 54%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/mlog.cpp.o
+[ 54%] Built target obj_mnemonics
+[ 56%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/net_utils_base.cpp.o
+[ 56%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/string_tools.cpp.o
+[ 57%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/wipeable_string.cpp.o
+[ 57%] Building C object contrib/epee/src/CMakeFiles/epee.dir/memwipe.c.o
+[ 59%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/connection_basic.cpp.o
+[ 60%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/network_throttle.cpp.o
+[ 60%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/transaction_info.cpp.o
+[ 62%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/transaction_history.cpp.o
+[ 62%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/network_throttle-detail.cpp.o
+[ 63%] Building CXX object src/wallet/CMakeFiles/obj_wallet.dir/wallet_args.cpp.o
+[ 65%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/pending_transaction.cpp.o
+[ 66%] Linking CXX static library libepee.a
+[ 66%] Built target epee
+[ 68%] Built target obj_version
+Scanning dependencies of target cncrypto
+[ 68%] Linking CXX static library libcncrypto.a
+[ 68%] Built target cncrypto
+Scanning dependencies of target obj_common
+[ 69%] Building CXX object src/common/CMakeFiles/obj_common.dir/base58.cpp.o
+[ 71%] Building CXX object src/wallet/CMakeFiles/obj_wallet.dir/node_rpc_proxy.cpp.o
+[ 71%] Building CXX object src/common/CMakeFiles/obj_common.dir/command_line.cpp.o
+[ 72%] Building CXX object src/common/CMakeFiles/obj_common.dir/dns_utils.cpp.o
+[ 72%] Building CXX object src/common/CMakeFiles/obj_common.dir/download.cpp.o
+[ 72%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/utils.cpp.o
+[ 74%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/address_book.cpp.o
+[ 75%] Building CXX object src/common/CMakeFiles/obj_common.dir/util.cpp.o
+[ 75%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/subaddress.cpp.o
+[ 77%] Building CXX object src/common/CMakeFiles/obj_common.dir/i18n.cpp.o
+[ 77%] Building CXX object src/common/CMakeFiles/obj_common.dir/password.cpp.o
+[ 78%] Building CXX object src/common/CMakeFiles/obj_common.dir/perf_timer.cpp.o
+[ 78%] Built target obj_wallet
+Scanning dependencies of target mnemonics
+[ 80%] Linking CXX static library libmnemonics.a
+[ 80%] Built target mnemonics
+[ 80%] Built target version
+[ 80%] Building CXX object src/common/CMakeFiles/obj_common.dir/threadpool.cpp.o
+[ 81%] Building CXX object src/common/CMakeFiles/obj_common.dir/updates.cpp.o
+[ 83%] Building CXX object src/common/CMakeFiles/obj_common.dir/stack_trace.cpp.o
+[ 84%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/subaddress_account.cpp.o
+[ 86%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/unsigned_transaction.cpp.o
+[ 86%] Built target obj_common
+Scanning dependencies of target common
+[ 87%] Linking CXX static library libcommon.a
+[ 87%] Built target common
+Scanning dependencies of target checkpoints
+[ 89%] Linking CXX static library libcheckpoints.a
+[ 89%] Built target checkpoints
+Scanning dependencies of target rpc_base
+[ 90%] Linking CXX static library librpc_base.a
+[ 90%] Built target rpc_base
+Scanning dependencies of target cryptonote_basic
+[ 90%] Linking CXX static library libcryptonote_basic.a
+[ 90%] Built target cryptonote_basic
+Scanning dependencies of target ringct
+[ 92%] Linking CXX static library libringct.a
+[ 92%] Built target ringct
+Scanning dependencies of target multisig
+Scanning dependencies of target blockchain_db
+[ 93%] Linking CXX static library libmultisig.a
+[ 93%] Linking CXX static library libblockchain_db.a
+[ 93%] Built target multisig
+[ 93%] Built target blockchain_db
+Scanning dependencies of target cryptonote_core
+[ 95%] Linking CXX static library libcryptonote_core.a
+[ 95%] Built target cryptonote_core
+Scanning dependencies of target wallet
+[ 96%] Linking CXX static library ../../lib/libwallet.a
+[ 96%] Built target wallet
+Scanning dependencies of target wallet_rpc_server
+[ 98%] Building CXX object src/wallet/CMakeFiles/wallet_rpc_server.dir/wallet_rpc_server.cpp.o
+[ 98%] Built target obj_wallet_api
+Scanning dependencies of target wallet_merged
+[ 98%] Linking CXX static library ../../lib/libwallet_merged.a
+[ 98%] Built target wallet_merged
+[100%] Linking CXX executable ../../bin/moneda-wallet-rpc
+[100%] Built target wallet_rpc_server
+[  1%] Built target easylogging
+[  4%] Built target blocks
+[  6%] Built target lmdb
+[ 13%] Built target generate_translations_header
+[ 31%] Built target obj_cncrypto
+[ 36%] Built target obj_cryptonote_basic
+[ 36%] Built target obj_checkpoints
+[ 40%] Built target obj_ringct
+[ 42%] Built target obj_multisig
+[ 46%] Built target obj_cryptonote_core
+[ 48%] Built target obj_blockchain_db
+[ 48%] Built target obj_mnemonics
+[ 51%] Built target obj_wallet
+-- You are currently on commit 6ed3148
+[ 53%] Built target obj_rpc_base
+[ 62%] Built target obj_wallet_api
+[ 72%] Built target obj_common
+-- The most recent tag was at 793bc97
+-- You are ahead of or behind a tagged release
+[ 83%] Built target epee
+[ 83%] Built target genversion
+[ 84%] Built target mnemonics
+[ 84%] Built target cncrypto
+[ 86%] Built target obj_version
+[ 87%] Built target common
+[ 87%] Built target wallet_merged
+[ 89%] Built target rpc_base
+[ 89%] Built target version
+[ 90%] Built target checkpoints
+[ 90%] Built target cryptonote_basic
+[ 92%] Built target ringct
+[ 93%] Built target multisig
+[ 93%] Built target blockchain_db
+[ 95%] Built target cryptonote_core
+[ 96%] Built target wallet
+[100%] Built target wallet_rpc_server
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/bin/moneda-wallet-rpc
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/lib/libwallet_merged.a
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/include/wallet/api/wallet2_api.h
+/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release /home/ksk/works/moneda-gui_01-30/moneda-gui /home/ksk/works/moneda-gui_01-30/moneda-gui
+/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release/src/daemon /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release /home/ksk/works/moneda-gui_01-30/moneda-gui /home/ksk/works/moneda-gui_01-30/moneda-gui
+[  2%] Built target blocks
+[  3%] Built target lmdb
+[  5%] Built target easylogging
+[ 20%] Built target obj_cncrypto
+[ 26%] Built target generate_translations_header
+-- You are currently on commit 6ed3148
+-- The most recent tag was at 793bc97
+-- You are ahead of or behind a tagged release
+Scanning dependencies of target libminiupnpc-static
+[ 26%] Built target genversion
+[ 30%] Built target obj_cryptonote_basic
+[ 32%] Building C object external/miniupnpc/CMakeFiles/libminiupnpc-static.dir/igd_desc_parse.c.o
+[ 32%] Built target obj_checkpoints
+[ 35%] Built target obj_ringct
+[ 37%] Built target obj_multisig
+[ 37%] Building C object external/miniupnpc/CMakeFiles/libminiupnpc-static.dir/miniupnpc.c.o
+[ 41%] Built target obj_cryptonote_core
+[ 42%] Building C object external/miniupnpc/CMakeFiles/libminiupnpc-static.dir/minixml.c.o
+[ 43%] Built target obj_blockchain_db
+[ 44%] Building C object external/miniupnpc/CMakeFiles/libminiupnpc-static.dir/minissdpc.c.o
+[ 44%] Building C object external/miniupnpc/CMakeFiles/libminiupnpc-static.dir/minisoap.c.o
+Scanning dependencies of target obj_rpc
+[ 44%] Building CXX object src/rpc/CMakeFiles/obj_rpc.dir/core_rpc_server.cpp.o
+[ 46%] Building C object external/miniupnpc/CMakeFiles/libminiupnpc-static.dir/miniwget.c.o
+[ 46%] Building C object external/miniupnpc/CMakeFiles/libminiupnpc-static.dir/upnpcommands.c.o
+[ 47%] Building C object external/miniupnpc/CMakeFiles/libminiupnpc-static.dir/upnpdev.c.o
+[ 48%] Building C object external/miniupnpc/CMakeFiles/libminiupnpc-static.dir/upnpreplyparse.c.o
+[ 48%] Building C object external/miniupnpc/CMakeFiles/libminiupnpc-static.dir/upnperrors.c.o
+[ 50%] Building C object external/miniupnpc/CMakeFiles/libminiupnpc-static.dir/connecthostport.c.o
+[ 50%] Building C object external/miniupnpc/CMakeFiles/libminiupnpc-static.dir/portlistingparse.c.o
+[ 51%] Building C object external/miniupnpc/CMakeFiles/libminiupnpc-static.dir/receivedata.c.o
+[ 52%] Building CXX object src/rpc/CMakeFiles/obj_rpc.dir/instanciations.cpp.o
+[ 53%] Linking C static library libminiupnpc.a
+[ 55%] Built target obj_rpc_base
+Scanning dependencies of target obj_p2p
+[ 55%] Built target libminiupnpc-static
+[ 56%] Building CXX object src/p2p/CMakeFiles/obj_p2p.dir/net_node.cpp.o
+Scanning dependencies of target obj_cryptonote_protocol
+[ 56%] Building CXX object src/cryptonote_protocol/CMakeFiles/obj_cryptonote_protocol.dir/cryptonote_protocol_handler-base.cpp.o
+[ 56%] Built target obj_p2p
+Scanning dependencies of target obj_daemon_rpc_server
+[ 57%] Building CXX object src/rpc/CMakeFiles/obj_daemon_rpc_server.dir/daemon_handler.cpp.o
+[ 58%] Building CXX object src/cryptonote_protocol/CMakeFiles/obj_cryptonote_protocol.dir/block_queue.cpp.o
+[ 58%] Built target obj_cryptonote_protocol
+Scanning dependencies of target obj_daemon_messages
+[ 58%] Building CXX object src/rpc/CMakeFiles/obj_daemon_messages.dir/message.cpp.o
+[ 60%] Building CXX object src/rpc/CMakeFiles/obj_daemon_messages.dir/daemon_messages.cpp.o
+[ 60%] Building CXX object src/rpc/CMakeFiles/obj_daemon_rpc_server.dir/zmq_server.cpp.o
+[ 60%] Built target obj_daemon_rpc_server
+Scanning dependencies of target obj_serialization
+[ 60%] Building CXX object src/serialization/CMakeFiles/obj_serialization.dir/json_object.cpp.o
+[ 60%] Built target obj_daemon_messages
+Scanning dependencies of target obj_daemonizer
+[ 61%] Building CXX object src/daemonizer/CMakeFiles/obj_daemonizer.dir/posix_fork.cpp.o
+[ 61%] Built target obj_daemonizer
+Scanning dependencies of target epee_readline
+[ 61%] Building CXX object contrib/epee/src/CMakeFiles/epee_readline.dir/readline_buffer.cpp.o
+[ 62%] Linking CXX static library libepee_readline.a
+[ 62%] Built target epee_readline
+[ 71%] Built target epee
+[ 73%] Built target obj_version
+[ 73%] Built target cncrypto
+[ 82%] Built target obj_common
+[ 82%] Built target version
+[ 83%] Built target common
+Scanning dependencies of target p2p
+[ 83%] Linking CXX static library libp2p.a
+[ 83%] Built target p2p
+Scanning dependencies of target daemonizer
+[ 83%] Linking CXX static library libdaemonizer.a
+[ 83%] Built target daemonizer
+[ 84%] Built target checkpoints
+[ 85%] Built target rpc_base
+Scanning dependencies of target cryptonote_protocol
+[ 87%] Linking CXX static library libcryptonote_protocol.a
+[ 87%] Built target cryptonote_protocol
+[ 87%] Built target cryptonote_basic
+[ 88%] Built target ringct
+[ 89%] Built target multisig
+[ 89%] Built target blockchain_db
+[ 91%] Built target cryptonote_core
+[ 91%] Built target obj_serialization
+Scanning dependencies of target serialization
+[ 92%] Linking CXX static library libserialization.a
+[ 92%] Built target serialization
+Scanning dependencies of target daemon_messages
+[ 93%] Linking CXX static library libdaemon_messages.a
+[ 93%] Built target daemon_messages
+[ 93%] Built target obj_rpc
+Scanning dependencies of target rpc
+[ 93%] Linking CXX static library librpc.a
+[ 93%] Built target rpc
+Scanning dependencies of target daemon_rpc_server
+[ 94%] Linking CXX static library libdaemon_rpc_server.a
+[ 94%] Built target daemon_rpc_server
+[ 94%] Generating blocksdat.o
+Scanning dependencies of target daemon
+[ 96%] Building CXX object src/daemon/CMakeFiles/daemon.dir/command_parser_executor.cpp.o
+[ 96%] Building CXX object src/daemon/CMakeFiles/daemon.dir/command_server.cpp.o
+[ 97%] Building CXX object src/daemon/CMakeFiles/daemon.dir/executor.cpp.o
+[ 98%] Building CXX object src/daemon/CMakeFiles/daemon.dir/daemon.cpp.o
+[ 98%] Building CXX object src/daemon/CMakeFiles/daemon.dir/main.cpp.o
+[100%] Building CXX object src/daemon/CMakeFiles/daemon.dir/rpc_command_executor.cpp.o
+[100%] Linking CXX executable ../../bin/monedad
+[100%] Built target daemon
+[  2%] Built target blocks
+[  3%] Built target lmdb
+[  5%] Built target easylogging
+[ 16%] Built target libminiupnpc-static
+[ 32%] Built target obj_cncrypto
+-- You are currently on commit 6ed3148
+-- The most recent tag was at 793bc97
+-- You are ahead of or behind a tagged release
+[ 38%] Built target generate_translations_header
+[ 42%] Built target obj_cryptonote_basic
+[ 42%] Built target genversion
+[ 42%] Built target obj_checkpoints
+[ 46%] Built target obj_ringct
+[ 50%] Built target obj_cryptonote_core
+[ 51%] Built target obj_multisig
+[ 52%] Built target obj_rpc
+[ 53%] Built target obj_blockchain_db
+[ 55%] Built target obj_p2p
+[ 56%] Built target obj_rpc_base
+[ 57%] Built target obj_daemon_rpc_server
+[ 58%] Built target obj_cryptonote_protocol
+[ 58%] Built target obj_serialization
+[ 60%] Built target obj_daemon_messages
+[ 61%] Built target obj_daemonizer
+[ 62%] Built target epee_readline
+[ 71%] Built target epee
+[ 73%] Built target obj_version
+[ 73%] Built target cncrypto
+[ 82%] Built target obj_common
+[ 82%] Built target version
+[ 83%] Built target common
+[ 83%] Built target p2p
+[ 84%] Built target checkpoints
+[ 85%] Built target rpc_base
+[ 85%] Built target daemonizer
+[ 87%] Built target cryptonote_protocol
+[ 87%] Built target cryptonote_basic
+[ 88%] Built target ringct
+[ 89%] Built target multisig
+[ 89%] Built target blockchain_db
+[ 91%] Built target cryptonote_core
+[ 91%] Built target rpc
+[ 92%] Built target serialization
+[ 93%] Built target daemon_messages
+[ 94%] Built target daemon_rpc_server
+[100%] Built target daemon
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/bin/monedad
+/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release /home/ksk/works/moneda-gui_01-30/moneda-gui /home/ksk/works/moneda-gui_01-30/moneda-gui
+make: Entering directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release/contrib/epee'
+make[1]: Entering directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+make[2]: Entering directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+make[2]: Leaving directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+[ 11%] Built target easylogging
+make[2]: Entering directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+make[2]: Leaving directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+[ 22%] Built target epee_readline
+make[2]: Entering directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+make[2]: Leaving directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+[100%] Built target epee
+make[1]: Leaving directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/lib/libepee.a
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/lib/libepee_readline.a
+make: Leaving directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release/contrib/epee'
+make: Entering directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release/external/easylogging++'
+make[1]: Entering directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+make[2]: Entering directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+make[2]: Leaving directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+[100%] Built target easylogging
+make[1]: Leaving directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/lib/libeasylogging.a
+make: Leaving directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/build/release/external/easylogging++'
+Installing libunbound...
+[  5%] Built target generate_translations_header
+[  6%] Built target easylogging
+[  7%] Built target lmdb
+[ 16%] Built target libminiupnpc-static
+-- You are currently on commit 6ed3148
+-- The most recent tag was at 793bc97
+-- You are ahead of or behind a tagged release
+[ 23%] Built target obj_common
+[ 35%] Built target obj_cncrypto
+[ 35%] Built target genversion
+[ 38%] Built target obj_ringct
+[ 38%] Built target obj_checkpoints
+[ 41%] Built target obj_cryptonote_basic
+[ 44%] Built target obj_cryptonote_core
+[ 46%] Built target blocks
+[ 47%] Built target obj_multisig
+[ 48%] Built target obj_blockchain_db
+[ 48%] Built target obj_mnemonics
+[ 50%] Built target obj_rpc
+[ 51%] Built target obj_p2p
+[ 52%] Built target obj_rpc_base
+[ 53%] Built target obj_cryptonote_protocol
+[ 53%] Built target obj_serialization
+[ 54%] Built target obj_daemon_messages
+[ 55%] Built target obj_daemon_rpc_server
+[ 57%] Built target obj_wallet
+[ 58%] Built target obj_daemonizer
+[ 59%] Built target epee_readline
+[ 65%] Built target obj_wallet_api
+[ 72%] Built target epee
+[ 73%] Built target obj_version
+[ 73%] Built target cncrypto
+[ 74%] Built target mnemonics
+[ 74%] Built target version
+[ 74%] Built target wallet_merged
+[ 75%] Built target common
+[ 75%] Built target p2p
+[ 76%] Built target checkpoints
+[ 76%] Built target daemonizer
+[ 77%] Built target cryptonote_protocol
+[ 78%] Built target rpc_base
+[ 78%] Built target cryptonote_basic
+[ 79%] Built target ringct
+[ 80%] Built target multisig
+[ 80%] Built target blockchain_db
+[ 81%] Built target cryptonote_core
+[ 81%] Built target rpc
+[ 83%] Built target serialization
+[ 83%] Built target wallet
+[ 84%] Built target daemon_messages
+[ 86%] Built target wallet_rpc_server
+[ 86%] Generating blocksdat.o
+Scanning dependencies of target simplewallet
+Scanning dependencies of target blockchain_import
+Scanning dependencies of target blockchain_export
+[ 86%] Building CXX object src/simplewallet/CMakeFiles/simplewallet.dir/simplewallet.cpp.o
+[ 87%] Building CXX object src/blockchain_utilities/CMakeFiles/blockchain_import.dir/blockchain_import.cpp.o
+[ 88%] Building CXX object src/blockchain_utilities/CMakeFiles/blockchain_export.dir/blockchain_export.cpp.o
+Scanning dependencies of target gen_multisig
+[ 89%] Building CXX object src/gen_multisig/CMakeFiles/gen_multisig.dir/gen_multisig.cpp.o
+[ 89%] Building CXX object src/blockchain_utilities/CMakeFiles/blockchain_export.dir/bootstrap_file.cpp.o
+[ 89%] Linking CXX executable ../../bin/moneda-gen-trusted-multisig
+[ 89%] Building CXX object src/blockchain_utilities/CMakeFiles/blockchain_import.dir/bootstrap_file.cpp.o
+[ 89%] Built target gen_multisig
+[ 90%] Built target daemon_rpc_server
+[ 94%] Built target daemon
+[ 95%] Building CXX object src/blockchain_utilities/CMakeFiles/blockchain_import.dir/blocksdat_file.cpp.o
+[ 96%] Building CXX object src/blockchain_utilities/CMakeFiles/blockchain_export.dir/blocksdat_file.cpp.o
+[ 97%] Linking CXX executable ../../bin/moneda-blockchain-import
+[ 97%] Built target blockchain_import
+[ 98%] Linking CXX executable ../../bin/moneda-blockchain-export
+[ 98%] Built target blockchain_export
+[100%] Linking CXX executable ../../bin/moneda-wallet-cli
+[100%] Built target simplewallet
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/lib/libminiupnpc.a
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/include/miniupnpc/miniupnpc.h
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/include/miniupnpc/miniwget.h
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/include/miniupnpc/upnpcommands.h
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/include/miniupnpc/igd_desc_parse.h
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/include/miniupnpc/upnpreplyparse.h
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/include/miniupnpc/upnperrors.h
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/include/miniupnpc/upnpdev.h
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/include/miniupnpc/miniupnpctypes.h
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/include/miniupnpc/portlistingparse.h
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/include/miniupnpc/miniupnpc_declspec.h
+-- Up-to-date: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/lib/libeasylogging.a
+-- Up-to-date: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/lib/libepee.a
+-- Up-to-date: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/lib/libepee_readline.a
+-- Up-to-date: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/bin/moneda-wallet-rpc
+-- Up-to-date: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/lib/libwallet_merged.a
+-- Up-to-date: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/include/wallet/api/wallet2_api.h
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/bin/moneda-wallet-cli
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/bin/moneda-gen-trusted-multisig
+-- Up-to-date: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/bin/monedad
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/bin/moneda-blockchain-import
+-- Installing: /home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/bin/moneda-blockchain-export
+/home/ksk/works/moneda-gui_01-30/moneda-gui /home/ksk/works/moneda-gui_01-30/moneda-gui
+/home/ksk/works/moneda-gui_01-30/moneda-gui
+make: Entering directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/src/zxcvbn-c'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/home/ksk/works/moneda-gui_01-30/moneda-gui/src/zxcvbn-c'
+You are currently on commit b137f73
+The most recent tag was at 6f14fde
+You are ahead of or behind a tagged release
+/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda /home/ksk/works/moneda-gui_01-30/moneda-gui /home/ksk/works/moneda-gui_01-30/moneda-gui
+You are currently on commit 6ed3148
+The most recent tag was at 793bc97
+You are ahead of or behind a tagged release
+/home/ksk/works/moneda-gui_01-30/moneda-gui /home/ksk/works/moneda-gui_01-30/moneda-gui
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 443 untranslated source text(s)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_ar.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_ar.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_ar.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_ar.qm'...
+    Generated 345 translation(s) (345 finished and 0 unfinished)
+    Ignored 45 untranslated source text(s)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_pt-br.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_pt-br.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_pt-br.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_pt-br.qm'...
+    Generated 364 translation(s) (364 finished and 0 unfinished)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_de.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_de.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_de.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_de.qm'...
+    Generated 354 translation(s) (354 finished and 0 unfinished)
+    Ignored 15 untranslated source text(s)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_eo.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_eo.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_eo.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_eo.qm'...
+    Generated 372 translation(s) (372 finished and 0 unfinished)
+    Ignored 56 untranslated source text(s)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_es.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_es.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_es.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_es.qm'...
+    Generated 328 translation(s) (328 finished and 0 unfinished)
+    Ignored 22 untranslated source text(s)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_fi.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_fi.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_fi.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_fi.qm'...
+    Generated 173 translation(s) (173 finished and 0 unfinished)
+    Ignored 183 untranslated source text(s)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_fr.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_fr.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_fr.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_fr.qm'...
+    Generated 352 translation(s) (352 finished and 0 unfinished)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_hr.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_hr.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_hr.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_hr.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 390 untranslated source text(s)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_id.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_id.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_id.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_id.qm'...
+    Generated 342 translation(s) (342 finished and 0 unfinished)
+    Ignored 24 untranslated source text(s)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_hi.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_hi.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_hi.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_hi.qm'...
+    Generated 66 translation(s) (66 finished and 0 unfinished)
+    Ignored 307 untranslated source text(s)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_it.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_it.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_it.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_it.qm'...
+    Generated 364 translation(s) (364 finished and 0 unfinished)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_ja.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_ja.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_ja.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_ja.qm'...
+    Generated 376 translation(s) (376 finished and 0 unfinished)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_nl.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_nl.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_nl.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_nl.qm'...
+    Generated 369 translation(s) (369 finished and 0 unfinished)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_pl.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_pl.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_pl.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_pl.qm'...
+    Generated 175 translation(s) (175 finished and 0 unfinished)
+    Ignored 150 untranslated source text(s)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_ru.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_ru.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_ru.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_ru.qm'...
+    Generated 343 translation(s) (343 finished and 0 unfinished)
+    Ignored 37 untranslated source text(s)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_sv.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_sv.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_sv.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_sv.qm'...
+    Generated 365 translation(s) (365 finished and 0 unfinished)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_zh-cn.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_zh-cn.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_zh-cn.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_zh-cn.qm'...
+    Generated 349 translation(s) (349 finished and 0 unfinished)
+    Ignored 23 untranslated source text(s)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_zh-tw.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_zh-tw.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_zh-tw.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_zh-tw.qm'...
+    Generated 377 translation(s) (377 finished and 0 unfinished)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_he.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_he.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_he.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_he.qm'...
+    Generated 369 translation(s) (369 finished and 0 unfinished)
+    Ignored 21 untranslated source text(s)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_ko.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_ko.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_ko.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_ko.qm'...
+    Generated 373 translation(s) (373 finished and 0 unfinished)
+    Ignored 3 untranslated source text(s)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_ro.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_ro.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_ro.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_ro.qm'...
+    Generated 357 translation(s) (357 finished and 0 unfinished)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_da.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_da.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_da.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_da.qm'...
+    Generated 346 translation(s) (346 finished and 0 unfinished)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_cs.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_cs.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_cs.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_cs.qm'...
+    Generated 921 translation(s) (921 finished and 0 unfinished)
+    Ignored 125 untranslated source text(s)
+/usr/lib/x86_64-linux-gnu/qt5/bin/lrelease -compress -nounfinished -removeidentical ../translations/moneda-core_sk.ts -qm /home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_sk.qm
+Updating '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_sk.qm'...
+Removing translations equal to source text in '/home/ksk/works/moneda-gui_01-30/moneda-gui/build/release/bin/translations/moneda-core_sk.qm'...
+    Generated 367 translation(s) (367 finished and 0 unfinished)
+/usr/lib/x86_64-linux-gnu/qt5/bin/rcc -name qml ../qml.qrc -o qrc_qml.cpp
+g++ -c -m64 -pipe -O2 -std=c++0x -Wall -W -D_REENTRANT -fPIC -DQT_NO_DEBUG -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_QML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I../../moneda-gui -I. -I../moneda/include -I../src/libwalletqt -I../src/QR-Code-generator -I../src -I../moneda/src -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtQml -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -o qrc_qml.o qrc_qml.cpp
+g++ -m64 -Wl,-O1 -o release/bin/moneda-wallet-gui main.o filter.o clipboardAdapter.o oscursor.o WalletManager.o Wallet.o PendingTransaction.o TransactionHistory.o TransactionInfo.o QRCodeImageProvider.o oshelper.o TranslationManager.o TransactionHistoryModel.o TransactionHistorySortFilterModel.o BitBuffer.o QrCode.o QrSegment.o AddressBookModel.o AddressBook.o zxcvbn.o UnsignedTransaction.o MainApp.o DaemonManager.o qrc_qml.o moc_filter.o moc_clipboardAdapter.o moc_oscursor.o moc_WalletManager.o moc_Wallet.o moc_PendingTransaction.o moc_TransactionHistory.o moc_TransactionInfo.o moc_Transfer.o moc_oshelper.o moc_TranslationManager.o moc_TransactionHistoryModel.o moc_TransactionHistorySortFilterModel.o moc_AddressBookModel.o moc_AddressBook.o moc_UnsignedTransaction.o moc_MainApp.o moc_DaemonManager.o   -L/usr/X11R6/lib64 -L/home/ksk/works/moneda-gui_01-30/moneda-gui/moneda/lib -lwallet_merged -lepee -lunbound -leasylogging -lreadline -ldl -lboost_serialization -lboost_thread -lboost_system -lboost_date_time -lboost_filesystem -lboost_regex -lboost_chrono -lboost_program_options -lssl -lcrypto -Wl,-Bdynamic -lQt5Quick -lQt5Widgets -lQt5Gui -lQt5Qml -lQt5Network -lQt5Core -lGL -lpthread 
+/home/ksk/works/moneda-gui_01-30/moneda-gui
